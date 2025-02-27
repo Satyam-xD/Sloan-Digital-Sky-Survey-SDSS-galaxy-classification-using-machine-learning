@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDSS Galaxy Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>SDSS Galaxy Classification</h1>
+    <form action="/predict" method="POST">
+        <label for="u-g">u-g:</label>
+        <input type="text" id="u-g" name="u-g" required><br>
+
+        <label for="g-r">g-r:</label>
+        <input type="text" id="g-r" name="g-r" required><br>
+
+        <label for="r-i">r-i:</label>
+        <input type="text" id="r-i" name="r-i" required><br>
+
+        <label for="i-z">i-z:</label>
+        <input type="text" id="i-z" name="i-z" required><br>
+
+        <label for="petroR50_r">Petrosian Radius (r-band):</label>
+        <input type="text" id="petroR50_r" name="petroR50_r" required><br>
+
+        <label for="petroFlux_r">Petrosian Flux (r-band):</label>
+        <input type="text" id="petroFlux_r" name="petroFlux_r" required><br>
+
+        <label for="psfMag_r">PSF Magnitude (r-band):</label>
+        <input type="text" id="psfMag_r" name="psfMag_r" required><br>
+
+        <label for="expAB_r">Exponential Magnitude (r-band):</label>
+        <input type="text" id="expAB_r" name="expAB_r" required><br>
+
+        <label for="modelFlux_r">Model Flux (r-band):</label>
+        <input type="text" id="modelFlux_r" name="modelFlux_r" required><br>
+
+        <label for="redshift">Redshift:</label>
+        <input type="text" id="redshift" name="redshift" required><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
