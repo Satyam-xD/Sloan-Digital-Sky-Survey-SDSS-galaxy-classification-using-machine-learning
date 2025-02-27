@@ -46,7 +46,7 @@ Follow these steps to set up the project on your local machine.
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/sdss-galaxy-classification.git
+   git clone https://github.com/Satyam-xD/Sloan-Digital-Sky-Survey-SDSS-galaxy-classification-using-machine-learning/tree/main#features
    cd sdss-galaxy-classification
 
    
@@ -61,7 +61,7 @@ Follow these steps to set up the project on your local machine.
 ---
 
 ### **Customization**
-- Replace `username/sdss-galaxy-classification.git` with your GitHub repository URL.
+- Replace `https://github.com/Satyam-xD/Sloan-Digital-Sky-Survey-SDSS-galaxy-classification-using-machine-learning/tree/main#features` with your GitHub repository URL.
 - Update the **Features**, **Dataset**, and **Acknowledgments** sections as needed.
 - Add a `LICENSE` file if you want to include the MIT License or another license.
 
